@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-commandgaragedoor",
+  "version": "0.0.1",
+  "description": "Garage Door plugin for Homebridge",
+  "author": "Milan Kubicek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkubicek/homebridge-commandgaragedoor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkubicek/homebridge-commandgaragedoor/issues"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "garage",
+    "garagedoor",
+    "home"
+  ],
+  "engines": {
+    "node": ">=4.4.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {},
+  "scripts": {}
+}
