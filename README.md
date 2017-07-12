@@ -2,7 +2,7 @@
 
 Garage Door Opener plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
-Executes a shell command taking care for opening a door.
+Executes a shell command taking care of opening a door.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Executes a shell command taking care for opening a door.
 ## Configuration
 
 | Key | Description |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | name     | default accessory name |
 | command     | shell command to execute |
 | simulateTimeOpening     | Time in seconds displaying 'opening' state after open triggered |
