@@ -1,5 +1,5 @@
 # homebridge-commandgaragedoor
-
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/homebridge-commandgaragedoor)
 Garage Door Opener plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
 Executes a shell command taking care of opening a door.
