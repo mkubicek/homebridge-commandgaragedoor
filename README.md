@@ -23,9 +23,9 @@ Executes a shell command taking care of opening a door.
 | simulateTimeOpening     | Time in seconds displaying 'opening' state after open triggered |
 | simulateTimeOpen     | Time in seconds displaying 'open' state after 'opening' state |
 | simulateTimeClosing     | Time in seconds showing 'closing' state after 'open' state   |
-| manufacturer     | Manufacturer entry listed in iOS Home ® |
-| model     | Model entry listed in iOS Home ® |
-| serialnumber     | Serial Number entry listed in iOS Home ® |
+| manufacturer     | Manufacturer entry in iOS Home® |
+| model     | Model entry in iOS Home® |
+| serialnumber     | Serial Number entry in iOS Home® |
   
 ### Sample Configuration
 

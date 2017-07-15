@@ -1,6 +1,6 @@
 {
   "name": "homebridge-commandgaragedoor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Garage Door plugin for Homebridge",
   "author": "Milan Kubicek",
   "license": "MIT",
