@@ -17,6 +17,7 @@ Executes a shell command taking care of opening a door.
 
 | Key | Description |
 | ------------- |-------------|
+| accessory     | must be `CommandGarageDoor` (required) |
 | name     | default accessory name |
 | command     | shell command to execute |
 | simulateTimeOpening     | Time in seconds displaying 'opening' state after open triggered |
@@ -30,6 +31,7 @@ Executes a shell command taking care of opening a door.
 
 ```json
   "accessories": [{
+      "accessory": "CommandGarageDoor",
       "name": "Sample Garage Door",
       "command": "python ~/opendoor.py",
       "simulateTimeOpening": 3,
@@ -40,6 +42,18 @@ Executes a shell command taking care of opening a door.
       "serialnumber": "y"
   }]
 ```
+
+## Troubleshooting
+
+If homebridge crashes on startup with
+
+```
+TypeError: Cannot read property 'indexOf' of undefined
+    at API.accessory (.../homebridge/lib/api.js:50:12)
+    at Server._loadAccessories (.../homebridge/lib/server.js:264:42)
+```
+
+the accessory block in your `config.json` is missing the `"accessory": "CommandGarageDoor"` key. Homebridge uses it to look up which plugin to load, and fails before this plugin is ever reached.
 
 # Credit
 
